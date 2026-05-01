@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "example-scraper",
+    "title": "Example Web Scraper",
+    "version": "1.0",
+    "buildTag": "latest",
+    "dockerfile": "./Dockerfile",
+    "dockerContextDir": "../..",
+    "readme": "./README.md",
+    "input": "./input_schema.json",
+    "environmentVariables": {},
+    "defaultMemoryMbytes": 1024,
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 4096
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Example Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "List of URLs to start scraping from",
+            "editor": "stringList",
+            "default": ["https://apify.com"],
+            "prefill": ["https://apify.com"]
+        },
+        "maxRequests": {
+            "title": "Max Requests",
+            "type": "integer",
+            "description": "Maximum number of pages to scrape",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 1000
+        }
+    },
+    "required": ["startUrls"]
+}

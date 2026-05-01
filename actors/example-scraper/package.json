@@ -1,0 +1,20 @@
+{
+  "name": "@apify-apis/example-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Example web scraper built with Crawlee and Apify SDK",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/main.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "apify": "^3.2.0",
+    "crawlee": "^3.12.0",
+    "@apify-apis/shared-utils": "file:../../packages/shared-utils"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

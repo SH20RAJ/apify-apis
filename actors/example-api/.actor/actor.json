@@ -1,0 +1,16 @@
+{
+    "actorSpecification": 1,
+    "name": "example-api",
+    "title": "Example Standby API",
+    "version": "1.0",
+    "buildTag": "latest",
+    "dockerfile": "./Dockerfile",
+    "dockerContextDir": "../..",
+    "readme": "./README.md",
+    "input": "./input_schema.json",
+    "usesStandbyMode": true,
+    "environmentVariables": {},
+    "defaultMemoryMbytes": 512,
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 2048
+}

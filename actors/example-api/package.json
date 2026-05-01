@@ -1,0 +1,19 @@
+{
+  "name": "@apify-apis/example-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Example standby API with Pay Per Event monetization",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/main.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "apify": "^3.2.0",
+    "@apify-apis/shared-utils": "file:../../packages/shared-utils"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

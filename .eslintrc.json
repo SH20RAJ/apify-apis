@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "@apify/eslint-config-ts"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaVersion": 2022
+    },
+    "ignorePatterns": [
+        "node_modules",
+        "dist",
+        "apify_storage",
+        "*.js"
+    ],
+    "rules": {
+        "no-console": "off",
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": "off",
+        "@typescript-eslint/space-before-function-paren": "off"
+    },
+    "overrides": [
+        {
+            "files": ["packages/shared-utils/src/**/*.ts"],
+            "rules": {
+                "no-new": "off"
+            }
+        }
+    ]
+}

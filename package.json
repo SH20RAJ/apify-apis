@@ -1,0 +1,35 @@
+{
+  "name": "apify-apis-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo for Apify Actors - open source web scraping and automation APIs",
+  "license": "MIT",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "actors/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "test": "npm test --workspaces",
+    "actor:push:scraper": "cd actors/example-scraper && apify push",
+    "actor:push:api": "cd actors/example-api && apify push",
+    "actor:run:scraper": "cd actors/example-scraper && apify run",
+    "actor:run:api": "cd actors/example-api && apify run"
+  },
+  "devDependencies": {
+    "@apify/eslint-config-ts": "^0.3.0",
+    "@types/node": "^22.0.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
