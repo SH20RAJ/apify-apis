@@ -9,15 +9,13 @@
 
 | Category | Ideas | Difficulty | Monetization |
 |----------|-------|------------|-------------|
-| [Lead Generation & Sales Intel](./lead-generation.md) | 5 | Medium | PPE: per lead / per company |
-| [E-commerce & Market Research](./ecommerce-market-research.md) | 5 | Medium-High | PPE: per product / per store |
-| [Social Media & Content Intelligence](./social-media.md) | 4 | Medium | PPE: per post / per profile |
-| [SEO & Web Analysis](./seo-web-analysis.md) | 4 | Medium | PPE: per URL / per audit |
-| [AI-Powered Data Processing](./ai-processing.md) | 3 | High | PPE: per analysis / per result |
-| [Real Estate & Local Data](./real-estate-local.md) | 3 | Medium | PPE: per listing / per area |
-| [Finance & Compliance](./finance-compliance.md) | 2 | Medium | PPE: per report / per filing |
-| [Developer Tools & Utilities](./dev-tools.md) | 3 | Low-Medium | PPE: per scan / per event |
-| [Travel & Events](./travel-events.md) | 3 | Medium | PPE: per search / per result |
+| [E-commerce & Retail](./01-ecommerce-retail.md) | 7 | Medium-High | PPE: per product / per store |
+| [Social Media & Content](./02-social-media-content.md) | 6 | Medium | PPE: per post / per profile |
+| [Lead Generation & B2B](./03-lead-generation-b2b.md) | 6 | Medium | PPE: per lead / per company |
+| [AI & Automation](./04-ai-automation.md) | 6 | High | PPE: per analysis / per result |
+| [SEO & Marketing](./05-seo-marketing.md) | 5 | Medium | PPE: per URL / per audit |
+| [Finance & Public Data](./06-finance-public-data.md) | 5 | Medium | PPE: per report / per filing |
+| [Developer Utilities](./07-developer-utilities.md) | 5 | Low-Medium | PPE: per scan / per event |
 
 ---
 
